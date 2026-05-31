@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd 'front end' && npm run build",
+  "outputDirectory": "front end/dist",
+  "installCommand": "cd 'front end' && npm install",
+  "env": {
+    "VITE_API_BASE_URL": "@vite_api_base_url"
+  }
+}
